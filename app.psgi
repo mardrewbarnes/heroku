@@ -4,7 +4,7 @@ BEGIN {
     $ENV{CATALYST_SCRIPT_GEN} = 40;
 }
 
-perl -w bin\app.pl
+perl -w "bin\app.pl";
 
 1;
 
