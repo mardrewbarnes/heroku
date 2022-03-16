@@ -4,11 +4,7 @@ BEGIN {
     $ENV{CATALYST_SCRIPT_GEN} = 40;
 }
 
-use lib './lib';
-use Catalyst::View::TT;
-
-use Catalyst::ScriptRunner;
-Catalyst::ScriptRunner->run('MiniMojo', 'Server');
+perl -w bin\app.pl
 
 1;
 
