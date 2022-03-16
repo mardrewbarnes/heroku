@@ -5,7 +5,7 @@ BEGIN {
 }
 
 use lib './lib';
-use Catalyst::V::TT;
+use Catalyst::View::TT;
 
 use Catalyst::ScriptRunner;
 Catalyst::ScriptRunner->run('MiniMojo', 'Server');
