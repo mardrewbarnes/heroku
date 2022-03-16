@@ -2,7 +2,7 @@ package MiniMojo::View::TT;
 use Moose;
 use namespace::autoclean;
 
-extends 'Catalyst::V::TT';
+extends 'Catalyst::View::TT';
 
 __PACKAGE__->config(
     TEMPLATE_EXTENSION => '.tt',
