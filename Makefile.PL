@@ -2,7 +2,7 @@
 # IMPORTANT: if you delete this file your app will not work as
 # expected.  You have been warned.
 use lib '.';
-use inc::Module::Install 1.02;
+use inc::Module::Install 1.03;
 use Module::Install::Catalyst; # Complain loudly if you don't have
                                # Catalyst::Devel installed or haven't said
                                # 'make dist' to create a standalone tarball.
